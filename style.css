@@ -1,0 +1,59 @@
+body{
+	background-image: url("image/R.jfif");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+p{
+	font-family: 'Bungee', cursive;
+	font-size: 110px;
+	color: white;
+	margin-top: 150px;
+	margin-left: 450px;
+	letter-spacing: 20px;
+	width: 0ch;
+	overflow: hidden;
+	white-space: nowrap;
+	animation-name: a;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+@keyframes a {
+	0% {
+		width: 0ch;
+	}
+	100% {
+		width: 7ch;
+	}
+}
+div{
+	width: 200px;
+	height: 100px;	
+}
+h1{
+	color: white;
+	align-items: center;
+	margin-top: -5em;
+	letter-spacing: 3px;
+	font-family: 'Cormorant Garamond', serif;
+	width: 0ch;
+	overflow: hidden;
+	white-space: nowrap;
+	animation-name: b;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-fill-mode: forwards;
+	animation-delay: 7s;
+}
+@keyframes b {
+	0% {
+		width: 0ch;
+	}
+	100% {
+		width: 43ch;
+	}
+}
